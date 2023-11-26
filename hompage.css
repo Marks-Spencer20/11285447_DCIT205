@@ -1,0 +1,132 @@
+.ug_logo {
+    width: 110px !important;
+    padding: 60px;
+    display: inline-flex;
+    vertical-align: center;
+    object-fit: contain;
+}
+.ug {
+    display: inline-flex;
+    font-size: 100px;
+    font-weight: bolder;
+    color: blue;
+    vertical-align: center;
+    }
+ 
+    .search {
+        width: 1500px;
+        background-color: aliceblue;
+        border-radius: 15px;
+        font-size: 100px;
+        object-position: right bottom;
+        text-align: center;
+        font-family: 'Courier New';
+        vertical-align: top;
+        cursor: pointer;  
+    } 
+    .button1 {
+        width: 115px;
+        padding-right: 20px;
+        border-radius: 15px;
+        border-color: black;
+        cursor: pointer;
+        background-color: rgb(184, 179, 179));
+    }
+.search::placeholder{
+    color: black;
+    background-color: rgb(223, 221, 221);
+    font-size: 110px;
+}
+.video{
+    width: 100%;
+}
+.header1 {
+    background-color: rgb(41, 34, 34);
+}
+.compssa_logo {
+    margin-left: 20px;
+    width: 140px !important;
+    display: inline-flex;
+    vertical-align: center;
+    object-fit: contain;
+    margin-left: 13px;
+}
+.header2 {
+    background-color: rgb(231, 188, 95);
+    font-weight: bolder;
+    font-size: 90px;
+    font-style: italic;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(44, 147, 238);
+}
+.home{
+display: inline-block;
+flex-grow: 1;
+flex-shrink: 1;
+font-family: sans-serif;
+cursor: pointer;
+}
+.home:hover{
+    background-color: rgba(231, 234, 236, 0.15);
+    font-size:110px;
+    color: blanchedalmond;
+    display: inline-block;
+    flex-grow: 1;
+    font-family: sans-serif;
+    font-stretch: 100%;
+}
+.about1{
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.about1:hover{
+    background-color: rgba(231, 234, 236, 0.15);
+    font-size:110px;
+    color: blanchedalmond;
+    display: inline-block;
+    flex-grow: 1;
+    font-family: sans-serif;
+    font-stretch: 100%;
+}
+.about2{
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.about2:hover{
+    background-color: rgba(231, 234, 236, 0.15);
+    font-size:110px;
+    color: blanchedalmond;
+    display: inline-block;
+    flex-grow: 1;
+    font-family: sans-serif;
+    font-stretch: 100%;
+}
+.about3{
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.about31{
+    text-decoration: none;
+}
+.about3:hover{
+    background-color: rgba(231, 234, 236, 0.15);
+    font-size: 105px;
+    color: blanchedalmond;
+    display: inline-block;
+    flex-grow: 10%;
+    font-family: sans-serif;
+    font-stretch: 100%;
+}
+.copyright{
+    width: 100px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.c-symbol{
+    font-family: 'Times New Roman';
+    font-size: 80px;
+}
+.poe{
+    margin-top: -15px;
+    font-size: 50px;
+}
