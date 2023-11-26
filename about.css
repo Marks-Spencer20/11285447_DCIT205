@@ -1,19 +1,23 @@
 .about{
     font-size: 200px;
-    padding-bottom: -100px;
-    padding-left: 1500px;
-    background-image: url(about1-1.jpg);
-    width: 100%;
-    height: 40vmax;
-    background-repeat: no-repeat;
     display: flex;
     align-items: end;
+    text-align: center; 
+    background-image: url(pics/about1-1.jpg);
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 2300px;
 }
-
 .about-a{
-   
+    padding-left: 1000px;
+   align-self: bottom;
     text-align: center;
     color: rgb(0, 0, 0);
+}
+.about-a:hover{
+    color: blue;
+   cursor: pointer;
+   font-family: Impact;
 }
 .c-symbol{
     font-family: 'Times New Roman';
@@ -29,11 +33,19 @@
     width: 100%;
     border-radius: 100px;
 }
-.pic2{
+.pic2,
+.pic3, 
+.pic4 {
     width: 700px;
     border-radius: 100px;
+    padding-left: 30px;
 }
-.pic3{
-    width: 700px;
-    border-radius: 100px;
+.vid{
+    border-radius: 150px;
+    height: 500px;
+    padding-left: 30px;
+}
+.text12{
+    padding-left: 50px;
+    padding-top: 50px;
 }
