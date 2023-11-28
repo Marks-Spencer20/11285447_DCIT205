@@ -12,7 +12,10 @@
     color: blue;
     vertical-align: center;
     }
- 
+ .academics a{
+   text-decoration: none;
+   color: white;
+ }
     .search {
         width: 1500px;
         background-color: aliceblue;
@@ -158,4 +161,39 @@ cursor: pointer;
     text-align: center;
     padding-right: 30px;
     padding-top: 70px;
+}
+.dropdown{
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+    font-family: sans-serif;
+}
+.dropdown-content{
+    display: none;
+    position: absolute;
+    width: 100%;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+.dropdown:hover .dropdown-content{
+    display: block;
+}
+.dropdown-content a{
+    display: block;
+    color: #000000;
+    padding: 5px;
+    text-decoration: none;
+}
+.dropdown-content a:hover{
+    color: #FFFFFF;
+    background-color: #00A4BD;
+}
+.about11{
+    width: 100%;
+    font-weight: bold;
+    font-size: 79px;
+    padding-top: 5px;
+    background-color: rgb(231, 188, 95);
+    border: rgb(231, 188, 95);
+    color: rgb(65, 30, 121);
 }

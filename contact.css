@@ -1,0 +1,24 @@
+.head{
+    font-family: monospace;
+    text-align: center;
+    font-size: 250px;
+    color: antiquewhite;
+}
+.cus{
+    font-size: 100px;
+}
+.pic{
+    width: 80%;
+    padding-left: 100px;
+    height: 30%;
+    padding-bottom: 100px;
+}
+.poe1{
+padding-left: 70px;
+font-size: 90px;
+}
+.poe2{
+    padding-left: 70px;
+    font-size: 100px;
+    color: antiquewhite;
+}
